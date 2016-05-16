@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Details</title>
+    <link href="css/details.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="header">
+    <h1>Logo</h1>
+    <div class="search_bar">
+    <input type="text" class="querybox" name="q" placeholder="Search Here"/>
+    <input type="submit" class="button" value="Search" />
+    </div>
+</div>
+<div class="container">
+<div class="left_panel">
+    <h1>Add Your Data</h1>
+    <table>
+    <form action="#" method="post"  name="dataform">
+    <tr>
+        <td>Website Title</td>
+        <td><input type="text" name="title" class="input_text" placeholder="Input Name"></td>
+    </tr>
+    <tr>
+        <td>Meta Keywords</td>
+        <td><input type="text" name="keywords" class="input_text" placeholder="Input Message"></td>
+    </tr>
+    <tr>
+        <td>Meta Description</td>
+        <td><textarea class="input_area" name="description" placeholder="Input Description"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>Publisher E-mail</td>
+        <td><input type="text" name="keywords" class="input_text" placeholder="Input Email"/></td>
+    </tr>
+    <tr>
+        <td>Website Link</td>
+        <td><input type="text" name="picture" class="input_text" placeholder="Input Website Link"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" name="submit" class="input_btn" value="Submit"><input type="reset" name="clear" class="input_btn" value="Clear"></td>
+    </tr>
+        </form>
+</table>
+</div>
+<div class="right_panel">
+
+<table>
+    <form action="#" method="post" enctype="multipart/form-data" name="form">
+    <tr>
+        <td>Name</td>
+        <td><input type="text" name="name" class="input_text" placeholder="Input Name"></td>
+    </tr>
+    <tr>
+        <td>Message</td>
+        <td><input type="text" name="msg" class="input_text" placeholder="Input Message"></td>
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <td><input type="text"  name="phone" class="input_text" placeholder="Input Phone No"></td>
+    </tr>
+    <tr>
+        <td>E-mail</td>
+        <td><input type="text" name="email" class="input_text" placeholder="Input Email Address"></td>
+    </tr>
+    <tr>
+        <td>Picture</td>
+        <td><input type="file" name="picture" class="input_text" placeholder="Input Email Address"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" name="submit" class="input_btn" value="Submit"><input type="reset" name="clear" class="input_btn" value="Clear"></td>
+    </tr>
+        </form>
+</table>
+
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer">
+    &copy;Copyright By My Search Engine
+</div>
+</body>
+</html>

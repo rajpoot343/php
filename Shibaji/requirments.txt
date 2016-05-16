@@ -1,0 +1,19 @@
+Search Engine Project
+
+1. Front End:
+    a. Search Index Page
+    b. Search Result Page
+    c. Result Details Page
+    d. Post Items Page
+
+
+2. Back End:
+    a. Dashboard Modules
+    b. Items Modules
+        i. Add Item
+        ii. Edit Item
+        iii. Delete Item
+        iv. Items List - Approval Permission
+
+    c. Login Modules
+    d. Website Configuration
